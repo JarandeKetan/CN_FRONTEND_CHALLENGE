@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+    background-color: #222;
+    color: #fff;
+  }
+
+  h1 {
+    color: #ff4081;
+  }
+
+  .clock {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #ff4081;
+  }
+
+  .alarm-form {
+    margin-bottom: 20px;
+  }
+
+  .alarm-form input,
+  .alarm-form select,
+  .alarm-form button {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+
+  .alarm-form input {
+    width: 60px;
+  }
+
+  .alarm-form button {
+    background-color: #ff4081;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .alarm-list {
+    list-style-type: none;
+    padding: 0;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  .alarm-list-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #ff4081;
+  }
+
+  .alarm-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .alarm-item-content {
+    flex: 1;
+  }
+
+  .alarm-item button {
+    padding: 5px 10px;
+    background-color: #ff4081;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  .alarm-item button:hover {
+    background-color: #f50057;
+  }
+
+  .delete-button {
+    background-color: #ff4081;
+    color: #fff;
+  }
+
+  .delete-button:hover {
+    background-color: #f50057;
+  }
